@@ -8,6 +8,8 @@ __pycache__/
 # Virtual env
 venv/
 .venv/
+
+# Environment variables
 .env*
 
 # Jupyter
@@ -19,3 +21,6 @@ data/processed/
 
 # Models (large files)
 models/
+
+# Training history
+history_all.pkl
