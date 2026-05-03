@@ -17,7 +17,9 @@ The experiments rely on the following public datasets from Kaggle:
 ### 1. Suicide and Depression Detection
 
 **Task**: Binary classification
+
 **Classes**: `suicide`, `not_suicide`
+
 **Source**: [kaggle.com/datasets/nikhileswarkomati/suicide-watch](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)
 
 ---
@@ -25,7 +27,9 @@ The experiments rely on the following public datasets from Kaggle:
 ### 2. Sentiment Analysis for Mental Health
 
 **Task**: Multiclass classification
+
 **Classes**: `suicide`, `anxiety`, `bipolar`, `depression`, `normal`, `stress`, `personality_disorder`
+
 **Source**: [kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health)
 
 ---
@@ -33,7 +37,9 @@ The experiments rely on the following public datasets from Kaggle:
 ### 3. Sentimental Analysis for Tweets
 
 **Task**: Binary classification
+
 **Classes**: `depression`, `not_depression`
+
 **Source**: [kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets)
 
 ---
@@ -41,7 +47,9 @@ The experiments rely on the following public datasets from Kaggle:
 ### 4. Mental Health Corpus
 
 **Task**: Binary classification
+
 **Classes**: `poisonous`, `not_poisonous`
+
 **Source**: [kaggle.com/datasets/reihanenamdari/mental-health-corpus](https://www.kaggle.com/datasets/reihanenamdari/mental-health-corpus)
 
 ---
