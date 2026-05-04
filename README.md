@@ -264,11 +264,11 @@ See [`src/README.md`](./src/README.md) for module documentation.
 
 ## Reproducibility
 
-* Fixed seed (`42`) across NumPy, PyTorch, and sampling steps
-* Deterministic setup where applicable
+* Fixed seed (`42`) across NumPy, PyTorch, and CUDA
+* Data splitting uses fixed `random_state=42` throughout
 * Final outputs included in notebooks for transparency
 
-Re-running the pipeline may produce minor variations due to GPU non-determinism and the stochastic nature of LIME explanations, although overall results remain consistent.
+Re-running the pipeline should reproduce consistent results. Minor numerical variations may occur across different hardware configurations, CUDA versions, or operating systems, as full platform-level determinism cannot be guaranteed.
 
 ---
 

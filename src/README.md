@@ -51,10 +51,10 @@ from train import train_model
 
 * Random seeds are fixed across:
   * NumPy
-  * PyTorch
+  * PyTorch (CPU and CUDA)
   * data splitting
 
-* Deterministic behavior is enforced where possible
+* XAI explanations (LIME) are stochastic by nature; final outputs are preserved in notebooks for reference
 
 > **`max_length` note**: The default value in module function signatures is `128`, but all experiments in the notebooks use `MAX_LENGTH = 256` (as documented in the [Training Configuration](../README.md#training-configuration) table). Always pass `max_length=256` explicitly when reproducing the reported results.
 

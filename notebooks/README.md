@@ -49,7 +49,7 @@ Run notebooks in the following order:
 * Some notebooks may take significant time depending on hardware
 * Training (notebook `03`) requires a CUDA-compatible GPU for practical execution; CPU execution is possible but very slow
 * Outputs from final runs are preserved in notebooks for transparency
-* Re-running may produce minor variations due to GPU non-determinism and the stochastic nature of LIME
+* Re-running the pipeline should produce consistent training results; LIME explanations are stochastic and may vary across runs
 
 ---
 
